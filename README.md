@@ -40,7 +40,7 @@ Threads 수집 플러그인의 $threads-collect로 수집 시작해줘.
 
 ## 업데이트하기
 
-수집과 다운로드가 끝난 상태에서 Codex에 요청합니다.
+수집과 다운로드가 끝난 상태에서 Codex에 **“수집 플러그인 업데이트해줘”**라고 요청합니다. `$threads-update` 스킬이 설치된 경우 이 절차를 수행합니다. 자세히 지정하려면 아래 문장을 사용합니다.
 
 ```text
 https://github.com/ilseong-xofl/threads-collector 의 Threads 수집 플러그인을 업데이트해줘. threads-collector marketplace만 갱신하고 threads-collector@threads-collector를 최신 배포 버전으로 설치해줘. 기존 수집 폴더 설정·accounts.xlsx·결과 Excel·앱 자료를 유지하고 다른 플러그인은 바꾸지 마. 변경 전후 설치 버전을 알려주고, 적용 확인을 위해 새 대화를 열도록 안내해줘. 아직 수집하지 마.

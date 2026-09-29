@@ -19,7 +19,7 @@ plugin = ROOT / "plugins/threads-collector"
 manifest = json.loads((plugin / ".codex-plugin/plugin.json").read_text(encoding="utf-8"))
 assert manifest["name"] == "threads-collector" and manifest["version"] == report["version"]
 skills = sorted(path.parent.name for path in (plugin / "skills").glob("*/SKILL.md"))
-assert {"threads-collect", "threads-setup", "threads-plugin-check"}.issubset(skills)
+assert {"threads-collect", "threads-setup", "threads-plugin-check", "threads-update"}.issubset(skills)
 for name in skills:
     text = (plugin / "skills" / name / "SKILL.md").read_text(encoding="utf-8")
     assert text.startswith("---\n") and re.search(r"^name: " + re.escape(name) + "$", text, re.M)
