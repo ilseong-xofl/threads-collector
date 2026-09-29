@@ -7,6 +7,14 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 report = json.loads((ROOT / "DISTRIBUTION.json").read_text(encoding="utf-8"))
+expected_files = set(report["sha256"]) | {"DISTRIBUTION.json"}
+for path in ROOT.rglob("*"):
+    relative = path.relative_to(ROOT)
+    if relative.parts[0] == ".git":
+        continue
+    assert not path.is_symlink(), relative
+    if path.is_file():
+        assert relative.as_posix() in expected_files, f"Unexpected file: {relative}"
 for relative, expected in report["sha256"].items():
     path = ROOT / relative
     assert path.resolve().is_relative_to(ROOT) and not path.is_symlink(), relative

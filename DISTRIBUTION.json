@@ -8,7 +8,7 @@
     ".github/workflows/check.yml": "249def678453db6f111d9091fcd217af096e36b9ba7bc53dc9a1985c949a8e42",
     ".gitignore": "7587631acd7e7d5586333703dfdb7ad5b9ab9a12d511a0e3832f571a6dff1cb3",
     "AGENTS.md": "12f4482a27856fa645876c7a65639954140995cabc802b12627822ba99f9fe02",
-    "README.md": "09f72291c2b2c13617dc2acfeba74cdd39170395fb340ae063485fb56ab1fed1",
+    "README.md": "4beae7c105148426e2dae9ce5cd79d6e9363dae21edfb9d8f762fd623c20d54b",
     "plugins/threads-collector/.codex-plugin/plugin.json": "fb566f047d4c28de24a183e0bd421f499c00024e5623470569d6db69f98202c7",
     "plugins/threads-collector/README.md": "287d3ed12032ff83f43bfe94dc4c7780058654ac0677e6d18ff18374ad15f56a",
     "plugins/threads-collector/references/collection-source.md": "0f49c66bc916f187685a5178fab956b6bd0f32ddf1081bca3a122c8a47ce5010",
@@ -35,7 +35,7 @@
     "plugins/threads-collector/skills/threads-setup/agents/openai.yaml": "ff2a25a6cb3f2ed53277dabda0db60e911b5126d64d5ec98f652b3ae6636f3b1",
     "plugins/threads-collector/skills/threads-update/SKILL.md": "3e10e5af1cebe5dc941ad76e19e60554b90773bcca51e21a37d1877cdeb7acd6",
     "plugins/threads-collector/skills/threads-update/agents/openai.yaml": "6c3924f9e5f688cfaf4ade5aad691869d0e7cb627191b87539bf4e762615ffb6",
-    "scripts/verify-distribution.py": "3ede67d185d07b2bdc72c5db0e1c18f8eead2f0948309c2b6570ce54de753c22",
+    "scripts/verify-distribution.py": "b5eec60fe74695de3d0a20aba0a160b8e5128c2ed99dac972f497b5cef2f6ca7",
     "tests/test_collection_journal.py": "ac0fbd0e14cd2217866e77ebf3f3d6424c6741d7bf0efa18280e5f9407348288",
     "tests/test_collection_source.py": "61950a1ba6d91b2d8996b7ffec2981d0f282b8373eeda4be9fbc8b98b49fc3d8",
     "tests/test_setup_collection.py": "1766563584532d80400a8663dee05d13922ad62a7c74ea68ac276f9793a12963"
