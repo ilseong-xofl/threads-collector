@@ -5,6 +5,7 @@
   "version": "0.1.0+codex.20260929065345",
   "sha256": {
     ".agents/plugins/marketplace.json": "b4f82d8653aa8c22d0960ed8454111150c17ebc8a4fc0ce410571c490f806b3d",
+    ".gitattributes": "087d22c9b5967d6799b2c5c672967fba237832122fcdb937503e543f0f95b779",
     ".github/workflows/check.yml": "249def678453db6f111d9091fcd217af096e36b9ba7bc53dc9a1985c949a8e42",
     ".gitignore": "7587631acd7e7d5586333703dfdb7ad5b9ab9a12d511a0e3832f571a6dff1cb3",
     "AGENTS.md": "12f4482a27856fa645876c7a65639954140995cabc802b12627822ba99f9fe02",
